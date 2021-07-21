@@ -3,11 +3,12 @@
 {% block content %}
 <h1>Variant 1</h1>
 <div class='row card-panel pink lighten-5'>
-<form id="var_1_form">
+<form id="var_1_form" action="#" method="get">
     <input class="wide" type="text" placeholder="Input URL" name="url">
     <input class="wide" type="text" placeholder="Input TOKEN" name="token">
     <input type="submit" name="send_url" value="Send to server">
 </form>
+<div id="resp"></div>
 </div>
 {% endblock %}
 {% block bottom %}

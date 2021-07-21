@@ -1,4 +1,5 @@
-# Create links
+# -*- coding: utf-8 -*-
+
 from django.conf.urls import url
 
 from cms.views import index, variant_1
